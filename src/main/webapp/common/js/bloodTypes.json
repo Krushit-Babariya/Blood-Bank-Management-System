@@ -1,0 +1,44 @@
+{
+  "bloodTypes": [
+    {
+      "type": "A+",
+      "donateTo": ["A+", "AB+"],
+      "receiveFrom": ["A+", "A-", "O+", "O-"]
+    },
+    {
+      "type": "O+",
+      "donateTo": ["O+", "A+", "B+", "AB+"],
+      "receiveFrom": ["O+", "O-"]
+    },
+    {
+      "type": "B+",
+      "donateTo": ["B+", "AB+"],
+      "receiveFrom": ["B+", "B-", "O+", "O-"]
+    },
+    {
+      "type": "AB+",
+      "donateTo": ["AB+"],
+      "receiveFrom": ["Everyone"]
+    },
+    {
+      "type": "A-",
+      "donateTo": ["A+", "A-", "AB+", "AB-"],
+      "receiveFrom": ["A-", "O-"]
+    },
+    {
+      "type": "O-",
+      "donateTo": ["Everyone"],
+      "receiveFrom": ["O-"]
+    },
+    {
+      "type": "B-",
+      "donateTo": ["B+", "B-", "AB+", "AB-"],
+      "receiveFrom": ["B-", "O-"]
+    },
+    {
+      "type": "AB-",
+      "donateTo": ["AB+", "AB-"],
+      "receiveFrom": ["AB-", "A-", "B-", "O-"]
+    }
+  ]
+}

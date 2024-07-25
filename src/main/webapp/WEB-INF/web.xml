@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 
+	2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd" > <web-app> <display-name>Archetype 
+	Created Web Application</display-name> <welcome-file-list> <welcome-file>index.jsp</welcome-file> 
+	</welcome-file-list> </web-app> -->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>LinksApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>HomeDonor</display-name>
+    <servlet-name>HomeDonor</servlet-name>
+    <servlet-class>com.port.servlet.HomeDonor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeDonor</servlet-name>
+    <url-pattern>/HomeDonor</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>StoreCampData</display-name>
+    <servlet-name>StoreCampData</servlet-name>
+    <servlet-class>com.port.servlet.StoreCampData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StoreCampData</servlet-name>
+    <url-pattern>/StoreCampData</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AcceptRequest</display-name>
+    <servlet-name>AcceptRequest</servlet-name>
+    <servlet-class>com.port.servlet.AcceptRequest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AcceptRequest</servlet-name>
+    <url-pattern>/AcceptRequest</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EmergencyRequest</display-name>
+    <servlet-name>EmergencyRequest</servlet-name>
+    <servlet-class>com.port.servlet.EmergencyRequest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmergencyRequest</servlet-name>
+    <url-pattern>/EmergencyRequest</url-pattern>
+  </servlet-mapping>
+</web-app>
